@@ -111,6 +111,305 @@ textarea{min-height:120px}
         <h1>Lucas do Nascimento Soares</h1>
       </div>
       <nav class="menu">
+        <a href="#sobre">Sobre</a>
+        <a href="#cursos">Cursos</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contato">Contato</a>
+        <a class="cta" href="#cursos">Começar agora</a>
+      </nav>
+    </div>
+  </header>  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="badge">🚀 <small>Aprenda do zero ao avançado</small></span>
+          <br/>
+          <span class="badge">🏅 <small>Medalhista na Olimpíada de Matemática</small></span>
+          <h2>Cursos de Cálculo, Física e Eletromagnetismo — com passo a passo, exercícios e suporte.</h2>
+          <p>
+            Estude com materiais didáticos, listas em PDF, videoaulas objetivas e acompanhamento por WhatsApp.
+            Acesso por 12 meses, certificado e garantia de 7 dias.
+          </p>
+          <div class="hero-actions">
+            <a class="cta" href="#cursos">Ver cursos</a>
+            <a class="ghost" href="#contato">Falar no WhatsApp</a>
+          </div>
+        </div>
+        <div class="card preview">
+          <div class="video">
+            <!-- Substitua "123456789" pelo ID do seu vídeo do Vimeo (ou YouTube embed). -->
+            <iframe title="Aula de amostra" src="https://www.youtube.com/embed/3FLA_QK8zhw" width="100%" height="320" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <p class="muted" style="margin:10px 6px 6px">👆 Vídeo de amostra (substituir pelo seu). Proteja conteúdos pagos com Vimeo/Privado.</p>
+        </div>
+      </div>
+    </section><section id="sobre">
+  <div class="wrap">
+    <h3>👨‍🏫 Sobre Lucas</h3>
+    <p class="lead">Professor de Matemática e Engenharia Elétrica (UFPE/PROTEN). Atua com aulas de Cálculo (1–4), Física e Eletromagnetismo, com enfoque em resolução passo a passo e listas comentadas. Pesquisador em sistemas fotovoltaicos e métodos de ensino baseado em problemas.</p>
+    <ul class="muted" style="margin:0;padding-left:18px">
+      <li>Atendimento por WhatsApp e suporte às dúvidas.</li>
+      <li>Materiais em PDF e simulados com gabarito.</li>
+      <li>Aulas gravadas + encontros ao vivo esporádicos.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="cursos">
+  <div class="wrap">
+    <h3>📚 Cursos</h3>
+    <p class="lead">Escolha seu curso e comece agora. Pagamento em cartão/boleto e acesso imediato.</p>
+
+    <div class="grid">
+      <!-- Curso 1 -->
+      <article class="course card">
+        <div class="thumb" style="background:linear-gradient(135deg,#22d3ee,#34d399)"></div>
+        <div class="body">
+          <h4>Cálculo I — Limites, Derivadas e Aplicações</h4>
+          <div class="tags">
+            <span class="tag">+40 aulas</span>
+            <span class="tag">PDFs</span>
+            <span class="tag">Listas resolvidas</span>
+          </div>
+          <p class="muted">Domine limites, regras de derivação e problemas clássicos de otimização com passo a passo.</p>
+          <div class="price"><strong>R$ 97</strong> <span class="muted">à vista</span></div>
+          <div class="buy">
+            <a class="btn" href="#" data-checkout="calc1">Ver currículo</a>
+            <a class="btn primary" href="#" data-pay="calc1">Comprar agora</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Curso 2 -->
+      <article class="course card">
+        <div class="thumb" style="background:linear-gradient(135deg,#60a5fa,#818cf8)"></div>
+        <div class="body">
+          <h4>Física Mecânica — Cinemática a Dinâmica</h4>
+          <div class="tags">
+            <span class="tag">+35 aulas</span>
+            <span class="tag">Exercícios ENEM/IME/ITA</span>
+            <span class="tag">Simulados</span>
+          </div>
+          <p class="muted">Do básico ao avançado em vetores, MRU, MRUV, forças, trabalho e energia.</p>
+          <div class="price"><strong>R$ 97</strong> <span class="muted">à vista</span></div>
+          <div class="buy">
+            <a class="btn" href="#" data-checkout="fis1">Ver currículo</a>
+            <a class="btn primary" href="#" data-pay="fis1">Comprar agora</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Curso 3 -->
+      <article class="course card">
+        <div class="thumb" style="background:linear-gradient(135deg,#f59e0b,#ef4444)"></div>
+        <div class="body">
+          <h4>Eletromagnetismo — Campos, Circuitos e Aplicações</h4>
+          <div class="tags">
+            <span class="tag">+30 aulas</span>
+            <span class="tag">Mapas conceituais</span>
+            <span class="tag">Exercícios comentados</span>
+          </div>
+          <p class="muted">Fundamentos de eletrostática, magnetostática, Maxwell e aplicações em engenharia.</p>
+          <div class="price"><strong>R$ 127</strong> <span class="muted">à vista</span></div>
+          <div class="buy">
+            <a class="btn" href="#" data-checkout="emag">Ver currículo</a>
+            <a class="btn primary" href="#" data-pay="emag">Comprar agora</a>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <p class="muted" style="margin-top:14px">💡 Dica: você pode vender em pacotes (combo Cálculo + Física) com cupom de desconto.</p>
+  
+      <!-- Curso Combo -->
+      <article class="course card">
+        <div class="thumb" style="background:linear-gradient(135deg,#34d399,#60a5fa)"></div>
+        <div class="body">
+          <h4>Combo — Cálculo I + Física Mecânica</h4>
+          <div class="tags">
+            <span class="tag">+75 aulas</span>
+            <span class="tag">PDFs & Simulados</span>
+            <span class="tag">Suporte</span>
+          </div>
+          <p class="muted">Pacote econômico com os dois cursos mais procurados para você acelerar seus resultados.</p>
+          <div class="price"><strong>R$ 147</strong> <span class="muted">à vista</span></div>
+          <div class="buy">
+            <a class="btn" href="#" data-checkout="combo">Ver currículo</a>
+            <a class="btn primary" href="#" data-pay="combo">Comprar agora</a>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <p class="muted" style="margin-top:14px">💡 Dica: você pode vender em pacotes (combo Cálculo + Física) com cupom de desconto.</p>
+  </div>
+</section>
+
+<section id="depoimentos">
+  <div class="wrap">
+    <h3>⭐ Depoimentos</h3>
+    <p class="lead">Resultados de alunos que seguiram o método passo a passo.</p>
+    <div class="quotes">
+      <div class="card quote"><p>“Explica de forma clara e objetiva. Passei direto em Cálculo I.”</p><div class="who"><div class="avatar"></div><small>Ana Paula • Eng. Mecânica</small></div></div>
+      <div class="card quote"><p>“Os PDFs e listas resolvidas salvam tempo demais.”</p><div class="who"><div class="avatar"></div><small>Rafael • Física</small></div></div>
+      <div class="card quote"><p>“Didática excelente, com foco no que realmente cai.”</p><div class="who"><div class="avatar"></div><small>Bianca • Eng. Elétrica</small></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="faq" class="faq">
+  <div class="wrap">
+    <h3>❓ FAQ</h3>
+    <details open>
+      <summary>Como recebo acesso após o pagamento?</summary>
+      <small>Você recebe automaticamente por e-mail o link da área de membros e sua senha. O acesso é pessoal e intransferível.</small>
+    </details>
+    <details>
+      <summary>Os vídeos podem ser baixados?</summary>
+      <small>Os vídeos ficam protegidos em plataforma segura (ex.: Vimeo) com acesso via login. O download é bloqueado.</small>
+    </details>
+    <details>
+      <summary>Quais são as formas de pagamento?</summary>
+      <small>Cartão de crédito, PIX e boleto, via Mercado Pago/Stripe. Parcelamento disponível.</small>
+    </details>
+    <details>
+      <summary>Existe garantia?</summary>
+      <small>Sim, 7 dias de garantia incondicional. Se não gostar, devolvemos seu dinheiro.</small>
+    </details>
+  </div>
+</section>
+
+<section id="contato">
+  <div class="wrap">
+    <h3>📞 Contato</h3>
+    <p class="lead">Ficou com dúvida? Fale comigo e receba orientação para escolher o curso ideal.</p>
+    <div class="contact">
+      <form class="card" id="contact-form" onsubmit="sendMsg(event)">
+        <div style="padding:16px">
+          <label for="name">Nome</label>
+          <input id="name" name="name" placeholder="Seu nome" required />
+          <div style="height:10px"></div>
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="email" placeholder="voce@email.com" required />
+          <div style="height:10px"></div>
+          <label for="msg">Mensagem</label>
+          <textarea id="msg" name="msg" placeholder="Escreva sua pergunta..."></textarea>
+          <div style="height:14px"></div>
+          <button class="btn primary" type="submit">Enviar mensagem</button>
+          <p id="sent" class="muted" style="display:none;margin-top:10px">✅ Mensagem preparada no WhatsApp. Clique para enviar.</p>
+        </div>
+      </form>
+
+      <div class="card" style="padding:16px">
+        <h4>Atendimento</h4>
+        <p class="muted">WhatsApp: <a href="https://wa.me/5581997993513" target="_blank" rel="noopener">(81) 99799-3513</a><br>E-mail: <a href="mailto:lucas.nsoares@ufpe.br">lucas.nsoares@ufpe.br</a></p>
+        <p class="muted">Horário: Seg a Sex, 9h–18h (BRT)</p>
+        <hr style="border:0;border-top:1px solid var(--stroke)">
+        <h4>Área do Aluno</h4>
+        <p class="muted">Após a compra, você receberá o link e a senha de acesso por e-mail automaticamente.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </main>  <footer>
+    <div class="wrap">
+      <p>© <span id="year"></span> Lucas do Nascimento Soares — Todos os direitos reservados.</p>
+    </div>
+  </footer>  <script>
+    // Atualiza ano no rodapé
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Checkout: substitua as URLs abaixo por links reais do seu gateway (Mercado Pago/Stripe/Hotmart)
+    const PAY_LINKS = {
+      calc1: {
+        checkout: '#',
+        pay: 'https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=SEU_ID_CALC1'
+      },
+      fis1: {
+        checkout: '#',
+        pay: 'https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=SEU_ID_FIS1'
+      },
+      emag: {
+        checkout: '#',
+        pay: 'https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=SEU_ID_EMAG'
+      },
+      combo: {
+        checkout: '#',
+        pay: 'https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=SEU_ID_COMBO'
+      }
+    };
+
+    document.querySelectorAll('[data-checkout]').forEach(btn=>{
+      btn.addEventListener('click', e=>{
+        e.preventDefault();
+        const id = btn.getAttribute('data-checkout');
+        const url = PAY_LINKS[id]?.checkout || '#';
+        if(url==='#') alert('Currículo do curso em breve.');
+        else window.location.href = url;
+      })
+    })
+
+    document.querySelectorAll('[data-pay]').forEach(btn=>{
+      btn.addEventListener('click', e=>{
+        e.preventDefault();
+        const id = btn.getAttribute('data-pay');
+        const url = PAY_LINKS[id]?.pay || '#';
+        if(url==='#') alert('Link de pagamento não configurado. Edite o arquivo e insira seu link do Mercado Pago/Stripe.');
+        else window.open(url,'_blank');
+      })
+    })
+
+    // Formulário: abre WhatsApp com mensagem pronta
+    function sendMsg(ev){
+      ev.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const msg = document.getElementById('msg').value.trim();
+      const text = encodeURIComponent(`Olá, sou ${name} (email: ${email}). Gostaria de informações sobre os cursos. Mensagem: ${msg}`);
+      const wa = `https://wa.me/5581997993513?text=${text}`;
+      window.open(wa,'_blank');
+      document.getElementById('sent').style.display='block';
+    }
+  </script></body>
+</html>
+/* FAQ */
+details{background:var(--card);border:1px solid var(--stroke);padding:16px;border-radius:14px}
+details+details{margin-top:10px}
+summary{cursor:pointer;font-weight:600}
+summary::marker{color:var(--brand)}
+.faq small{color:var(--muted)}
+
+/* rodapé & contato */
+footer{padding:36px 0;border-top:1px solid var(--stroke);color:var(--muted)}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+input,textarea{width:100%;background:#0d1430;color:var(--ink);border:1px solid var(--stroke);border-radius:12px;padding:12px 14px;font:inherit}
+textarea{min-height:120px}
+
+/* responsivo */
+@media (max-width:980px){
+  .hero-grid{grid-template-columns:1fr}
+  .grid{grid-template-columns:1fr 1fr}
+  .quotes{grid-template-columns:1fr 1fr}
+  .contact{grid-template-columns:1fr}
+}
+@media (max-width:640px){
+  .menu{display:none}
+  .hero h2{font-size:34px}
+  .grid,.quotes{grid-template-columns:1fr}
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <h1>Lucas do Nascimento Soares</h1>
+      </div>
+      <nav class="menu">
         <a href="#cursos">Cursos</a>
         <a href="#depoimentos">Depoimentos</a>
         <a href="#faq">FAQ</a>
@@ -326,10 +625,4 @@ textarea{min-height:120px}
       const name = document.getElementById('name').value.trim();
       const email = document.getElementById('email').value.trim();
       const msg = document.getElementById('msg').value.trim();
-      const text = encodeURIComponent(`Olá, sou ${name} (email: ${email}). Gostaria de informações sobre os cursos. Mensagem: ${msg}`);
-      const wa = `https://wa.me/5581997993513?text=${text}`;
-      window.open(wa,'_blank');
-      document.getElementById('sent').style.display='block';
-    }
-  </script></body>
-</html>
+      const text = encodeURIComponent(`Olá, sou ${name} (email: ${email}). Gostaria de informações sobre os curso
